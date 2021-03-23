@@ -140,7 +140,18 @@ In this section, you'll enable B.Simon to use Azure single sign-on by granting a
 
 ## Configure Ally.io SSO
 
-To configure single sign-on on **Ally.io** side, you need to send the downloaded **Certificate (Base64)** and appropriate copied URLs from Azure portal to [Ally.io support team](mailto:contact@ally.io). They set this setting to have the SAML SSO connection set properly on both sides.
+To configure single sign-on on Ally.io side, you need to copy the **Certificate (Base64) and appropriate URLs from Azure portal and add them in Ally.io.** 
+
+1. Login to Ally.io using an Admin account
+1. Using the navigation bar on the left of the screen select **Admin** followed by **Integrations** 
+1. Scroll to the **Authentication** section and select **Single Sign-On** and click **Enable**
+
+<img width="1440" alt="allyio-azure-sso" src="https://user-images.githubusercontent.com/78466843/112188730-40953480-8c29-11eb-91f8-4a3ef5352f3f.png">
+
+1. After you have selected Enable, a new screen will appear where you can configure the certificate and the copied URLs from your Azure portal. 
+
+<img width="1440" alt="configure-azuread-ally io" src="https://user-images.githubusercontent.com/78466843/112188805-5571c800-8c29-11eb-8752-517087908c41.png">
+
 
 ### Create Ally.io test user
 

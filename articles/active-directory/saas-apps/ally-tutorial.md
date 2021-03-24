@@ -140,7 +140,14 @@ In this section, you'll enable B.Simon to use Azure single sign-on by granting a
 
 ## Configure Ally.io SSO
 
-To configure single sign-on on **Ally.io** side, you need to send the downloaded **Certificate (Base64)** and appropriate copied URLs from Azure portal to [Ally.io support team](mailto:contact@ally.io). They set this setting to have the SAML SSO connection set properly on both sides.
+To configure single sign-on on **Ally.io** side, you need to send the downloaded **Certificate (Base64)** and appropriate copied URLs from Azure portal to [Ally.io support team](mailto:contact@ally.io). They set this setting to have the SAML SSO connection set properly on both sides. 
+
+Fill the below fields in Ally.io with the following information from Azure AD.  
+
+Ally : Azure AD
+SAML 2.0 Endpoint URL : Login URL
+Identity Provider Issuer URL : Azure AD Identifier
+Public(X.509) Certificate: Certificate (base 64)
 
 ### Create Ally.io test user
 
